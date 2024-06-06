@@ -55,15 +55,18 @@ public class BaseClass {
 	@AfterMethod
 	public void logout() 
 	{
+		
 	 
-	
+	Reporter.log("this is After test Method",true);
 	hp.getLogoutButton().click();
+	
 	}
 	
 
 	@AfterClass
 	public void closeBrowser() 
-	{
+	{	Reporter.log("this is After class method",true);
 		driver.quit();
+		
 	}
 }

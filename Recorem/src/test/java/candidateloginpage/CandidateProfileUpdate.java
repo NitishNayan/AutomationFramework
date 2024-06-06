@@ -19,6 +19,7 @@ public class CandidateProfileUpdate extends BaseClass
 		Reporter.log("Code Modified in eclips",true);
 		hp.getProfileMenuButton().click();
 		Reporter.log("Code Modified 2nd time in eclips",true);
+		Reporter.log("This is test script method",true);
 		
 		
 		
