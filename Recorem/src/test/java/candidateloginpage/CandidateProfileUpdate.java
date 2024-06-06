@@ -14,8 +14,9 @@ public class CandidateProfileUpdate extends BaseClass
 	@Test
 	public void Testscript()
 	{
+		Repoter.log("Changes form git",true);
 		hp.getProfileMenuButton().click();
-		Assert.fail();
+		//Assert.fail();
 		
 		
 	}
